@@ -27,8 +27,8 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  padding: 5px 0;
-  height: 50px;
+  padding: 10px 0; /* Increased padding for more height */
+  height: 80px; /* Increased height for the top bar */
 }
 
 @media (max-width: 991px) {
@@ -92,6 +92,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%; /* Adjusted width to make it more narrow */
+  max-width: 300px; /* Optional: further limits the width */
 }
 
 .email-input, .password-input {
@@ -110,7 +112,7 @@
 .welcome-content {
   background-color: #097ce8;
   color: #fff;
-  padding: 20px;
+  padding: 40px 20px; /* Increased padding to make the welcome bin bigger */
   font: 400 32px Inter, sans-serif;
   text-align: center;
   box-sizing: border-box;
